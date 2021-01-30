@@ -2,7 +2,7 @@
 % Copyright 2017 The MathWorks, Inc.
 
 % Gazebo IP address
-gazeboIp = '192.168.160.130';
+gazeboIp = '192.168.1.38';
 
 % Turtlebot IP address
 turtlebotIp = '172.31.28.38';
