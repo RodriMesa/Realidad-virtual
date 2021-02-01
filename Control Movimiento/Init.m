@@ -4,7 +4,7 @@ close all;
 clear;
 clc;
 
-params.Ts = 0.1;          % Sample time
+params.Ts = 0.001;          % Sample time
 
 params.bufSize = 5;        % Filter buffer size
 params.maxDisp = 300;      % Max object displacement [pixels]
@@ -22,7 +22,7 @@ params.targetSize = 180;   % Linear speed control target blob size [pixels]
 params.sizeDeadZone = 30;  % Linear speed control size dead zone [pixels]
 params.speedRedSize = 100; % Minimum pixel value before turning speed is ramped down
 % Gazebo IP address
-gazeboIp = '192.168.160.130';
+gazeboIp = '192.168.1.38';
 % Turtlebot IP address
 turtlebotIp = '172.31.28.38';
 rosshutdown;
