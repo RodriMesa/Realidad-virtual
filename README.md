@@ -1,3 +1,3 @@
-# Realidad-virtual
+# Matlab gazebo integration 
 In this development, an integration of ROS, Gazebo and Matlab was performed, with the objective of learning different development techniques and linking them. The modeling of controllers was established using Matlab, and the subsequent simulation was performed using Gazebo. The linkage between these elements was done using ROS. 
 With this in mind, two controllers were developed: one for positioning and the other for image recognition. The former sought to control the position of the mobile robot, while the latter used a neural network for vehicle recognition by means of a camera.
