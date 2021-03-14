@@ -1,0 +1,3 @@
+# Realidad-virtual
+En este desarrollo se realizó una integración de ROS, Gazebo y Matlab, con el objetivo de aprender distintas técnicas de desarrollo y vincularlas. Se estableció el modelado de controladores por medio de Matlab, y la posterior simulación fue realizada utilizando Gazebo. El vínculo entre estos elementos fue realizado utilizando ROS. 
+Con ello en mente, se desarrollaron dos controladores: uno de posicionamiento, y otro de reconocimeinto de imágen. El primero buscó  controlar la posición del robot movil, mientras que el segundo usó una red neuronal para el reconocimiento de vehículos por medio de una cámara.
